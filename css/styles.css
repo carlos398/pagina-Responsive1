@@ -51,7 +51,7 @@ header .btn-whatsapp{
     position: fixed;
     right: calc(100vw - 300px);
     bottom: 30px;
-    font-size: 3em;
+    font-size: 3.5em;
     color: rgb(104, 230, 104);
 }
 
@@ -246,6 +246,12 @@ footer .container{
 
     header .menu-btn{
         visibility: hidden;
+    }
+
+    header .btn-whatsapp{
+        right: 60px;
+        bottom: 30px;
+        font-size: 4.5em;
     }
 
     #hero h1{
