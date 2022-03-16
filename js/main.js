@@ -17,6 +17,7 @@ window.addEventListener('resize', () => {
         nav.style.visibility = 'hidden'
         cotainer_nav.style.height = '80px'
         menubtn.style.visibility = 'visible'
+        menubtn.innerHTML = '<i class="fas fa-align-justify">'
     }
 
 })
