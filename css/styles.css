@@ -306,4 +306,16 @@ footer .container{
     #caracteristicas ul{
         margin-left: 100px;
     }
+
+    #aplica-ya h2{
+        font-size: 5em;
+    }
+
+    #aplica-ya button{
+        font-size: 2em;
+    }
+
+    footer .container {
+        justify-content: flex-end;
+    }
 }
