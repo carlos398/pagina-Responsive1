@@ -46,6 +46,15 @@ header{
     background-color: rgb(230, 230, 230);
 }
 
+header .btn-whatsapp{
+    display: block;
+    position: fixed;
+    right: calc(100vw - 300px);
+    bottom: 30px;
+    font-size: 3em;
+    color: rgb(104, 230, 104);
+}
+
 header .logo {
     margin: 0;
     padding: 25px 30px;
@@ -110,6 +119,8 @@ header nav a:hover {
 #hero button{
     font-size: 1.7em;
 }
+
+
 
 #somos-pro .container{
     text-align: center;
