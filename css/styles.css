@@ -209,3 +209,24 @@ footer .container{
     align-items: flex-end;
 }
 
+@media (min-width: 720px) {
+    header .container{
+        flex-direction: row;
+        height: auto;
+    }
+
+    header nav{
+        visibility: visible;
+        flex-direction: row;
+        padding: 25px 30px;
+        
+    }
+
+    header nav a{
+        font-size: 1.2em;
+    }
+
+    header .menu-btn{
+        visibility: hidden;
+    }
+}
